@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TTD Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../js/libs/twitter-bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="../js/libs/jqueryui/css/base/jquery.ui.all.css"/>
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-static-top"  >
+            <div class="container" id="mainId">
+                <a href="#" class="navbar-brand">TTD Information</a>
+                <div id="headerId" class="collapse navbar-collapse navHeaderCollapse">
+                    <header class="masthead">
+                        <ul class="nav navbar-right nav-pills">
+                            <li><a href="home.html">Home</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="search.html">Search</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="login.html">Admin</a></li>
+                        </ul>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="dynaContentid" >
+            <table align="center" width="500"  border="0" cellspacing="2" cellpadding="3">
+            <tr>
+                <td width="30%"><b>State </b></td>
+                <td width="70%">
+                    <select name="state" id="state">
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%"><b>District </b></td>
+                <td width="70%">
+                    <select name="district" id="district"  >
+                       <option value="">Select District</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%"><b>Mandal </b></td>
+                <td width="70%">
+                    <select name="mandal" id="mandal" >
+                        <option value="">Select Mandal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%"><b>Village </b></td>
+                <td width="70%">
+                    <select name="village" id="village" >
+                        <option value="">Select Village</option>
+                 
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%"><b>Category <b></td>
+                <td width="70%">
+                    <select name="category" id="category1" >
+                        <option value="">Select Category</option>
+                        <option value="BAJANAMANDALI">BAJANAMANDALI</option>
+                        <option value="SRIVARI SEVA">SRIVARI SEVA</option>
+                        <option value="PRAVACHAM">PRAVACHAM</option>
+                        <option value="PUROHIT/ARCHAKA">PUROHIT/ARCHAKA</option>
+                        <option value="DONORS">DONORS</option>
+                        <option value="GOVINDAM PARAMANANDAM">GOVINDAM PARAMANANDAM</option>
+                        <option value="LOCAL TEMPLE">LOCAL TEMPLE</option>
+                        <option value="KOLATAM">KOLATAM</option>
+                        <option value="CULTURAL">CULTURAL</option>
+                        <option value="OTHERS">OTHERS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%"><b>Temple </b></td>
+                <td width="70%">
+                    <select name="temple" id="temple" >
+                        <option value="">do not exist temple</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td width="18%"><b>Temple Name </b></td>
+                <td width="82%"><input name="templeName" type="text" id="templeName"  /></td>
+            </tr>
+            <tr>
+                <td width="18%"><b>Name </b></td>
+                <td width="82%"><input name="name" type="text" id="name" /></td>
+            </tr>
+            <tr>
+                <td><b>Email <b></td>
+                <td><input name="email" type="text" id="email"  /></td>
+            </tr>
+            <tr>
+                <td><b>Phone (Mobile) </b></td>
+                <td><input name="phone" type="text" id="phone"  /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <label>
+                        <button class="btn" id="register" >Register</button>
+                    </label>
+                </td>
+            </tr>
+
+        </table>
+           
+        </div>
+        <script src="../js/libs/jquery/jquery.js"></script>
+        <script src="../js/libs/jqueryui/jquery-ui.js"></script>
+        <script src="../js/libs/twitter-bootstrap/js/bootstrap.js"></script>
+        <script src="../js/myJs/registration.js"></script>
+    </body>
+</html>
